@@ -1,0 +1,16 @@
+This is your cheat sheet to git vraj
+
+Configure file :
+git config --list (to see all changes)
+git config --global user.name "username"  (name of user on platfor, like github)
+git config --global user.email "email@gmail.com" (email on platform)
+
+--global makes it that all commit are make to same repository as a user
+--local allows to make it specific to repository
+
+git add . (add all files to staging area)
+git add example.txt (add example.txt to staging area)
+git commit -m "commit message" (always add a commit message :) 
+after all This
+
+git push (push all changes to remote repository)
